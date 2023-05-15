@@ -16,11 +16,11 @@ To parse an OUCH message, first create an instance of the Parser class.
 
 parser = Parser.Parser()
 
-parser.parse(data) will parse the encoded OUCH messages that you pass in. You should enter data of type bytes, str, List[bytes], List[str], or List[int]. Results are stored inside the parser object
+parser.parse(data) will parse the encoded OUCH messages that you pass in. You should pass in data of type bytes, str, List[bytes], List[str], or List[int]. Results are stored inside the parser object
 
 parser.getMessages() will return a Python dictionary containing all the data stored inside your parser object
 
-parser.reset() will clear the data stored inside your parser
+parser.reset() will clear the data stored inside a parser object.
 
 ## Contributing
 Comments, suggestions, bug reports, bug fixes – all contributions to this project are welcomed. Please use this project’s GitHub page for access to the latest source code, and please open an issue for comments, suggestions, and bugs.
